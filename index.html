@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Time</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/db59795b34.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="start_button">
+        <button>Start</button>
+    </div>
+    <div class="info_box">
+        <div class="info_title">
+            <span> GOOD LUCK </span>
+        </div>
+        <div class="info_list">
+            <div class="info">
+                <ol>
+                    <li>You'll get only <span>15 seconds</span> per question.</li>
+                    <li>Each question carries <span>10 points.</span></li>
+                    <li>You cannot redo or undo your choice.</li>
+                </ol>
+            </div>
+            <div class="buttons">
+                <button class="quit"> Exit Quiz </button>
+                <button class="restart"> Continue </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="quiz_box">
+        <header>
+            <div class="title"> Quiz Application</div>
+            <div class="timer">
+                <div class="timer_text"><i class="fas fa-clock"><span>Time Left</span></i></div>
+                <div class="timer_sec">15</div>
+            </div>
+        </header>
+        <section>
+            <div class="que_text">
+                <!-- <span>1 + 1 = ?</span> -->
+            </div>
+            <div class="option_list">
+                <!-- <div class="options">
+                    <span>11</span>
+                    <div class="icon_cross"><i class="fas fa-times"></i></div>
+                </div>
+                <div class="options">
+                    <span>10</span>
+                    <div class="icon_cross"><i class="fas fa-times"></i></div>
+                </div>
+                <div class="options">
+                    <span>Depends</span>
+                    <div class="icon_tick"> <i class="fas fa-check"></i></div>
+                </div>
+                <div class="options">
+                    <span>2</span>
+                    <div class="icon_cross"><i class="fas fa-times"></i></div>
+                </div> -->
+            </div>
+        </section>
+
+        <footer>
+            <div class="total_ques">
+                <span><p>2 </p>of <p>5</p> Questions</span>
+            </div>
+            <button class="next_button">Next Question</button>
+        </footer>
+    </div>
+
+
+    <div class="result_box">
+        <div class="icon">
+            <i class="fas fa-crown"></i>
+        </div>
+        <div class="complete_text">You've complete the Quiz!</div>
+        <div class="score_text">
+            <!-- <span>Your score is <p>2</p> out of <p>5</p> </span> -->
+        </div>
+        <div class="buttons">
+            <button class="restart">Replay Quiz</button>
+            <button class="quit">Quit Quiz</button>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+    <script src="ques.js"></script>
+</body>
+</html>
